@@ -25,28 +25,24 @@ body {
 
 /* ======= logo ========= */
 
-.header-logo,
-.header-logo-blue-letters {
+.header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.header-logo {
-    color: #2e2f42;
-}
-
-.header-logo-blue-letters {
     color: #4d5ae5;
 }
 
+.header-logo-black-letters {
+    color: #2e2f42;
+}
+
 .header-logo:hover,
-.header-logo-blue-letters:hover,
+.header-logo-black-letters:hover,
 .header-logo:focus,
-.header-logo-blue-letters:focus {
+.header-logo-black-letters:focus {
     color: #404bbf;
 }
 
@@ -71,7 +67,6 @@ body {
 
 .header-address-email,
 .header-address-tel {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -94,7 +89,6 @@ body {
 }
 
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -103,6 +97,7 @@ body {
 
 .hero-button-order {
     background: #4d5ae5;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -142,15 +137,9 @@ body {
 }
 
 .our-team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-}
-
-.our-team-foto {
-    width: 264px;
-    height: 260px;
 }
 
 .our-team-name {
@@ -170,16 +159,11 @@ body {
 /* ========== Our Portfolio ==========*/
 
 .our-portfolio-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
 }
 
-.our-portfolio-img {
-    width: 360px;
-    height: 300px;
-}
 
 .our-portfolio-subtitle {
     font-weight: 500;
@@ -202,28 +186,24 @@ body {
 }
 
 /* ====== footer address ======= */
-.footer-logo-site,
-.footer-logo-blue-letters {
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.footer-logo-site {
-    color: #f4f4fd;
-}
-
-.footer-logo-blue-letters {
     color: #4d5ae5;
 }
 
-.footer-logo-site:hover,
-.footer-logo-blue-letters:hover,
-.footer-logo-site:focus,
-.footer-logo-blue-letters:focus {
+.footer-logo-white-letters {
+    color: #f4f4fd;
+}
+
+.footer-logo:hover,
+.footer-logo-white-letters:hover,
+.footer-logo:focus,
+.footer-logo-white-letters:focus {
     color: #404bbf;
 }
 
