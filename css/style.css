@@ -17,7 +17,7 @@ button {
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background: #ffffff;
 }
 
@@ -65,18 +65,19 @@ body {
 
 /* ====== header address ======= */
 
-.header-address-email,
-.header-address-tel {
+.address {
+    font-style: normal;
+}
+
+.header-address-list-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
+    }
 
-.header-address-email:hover,
-.header-address-tel:hover,
-.header-address-email:focus,
-.header-address-tel:focus {
+.header-address-list-item:hover,
+.header-address-list-item:focus {
     color: #404bbf;
 }
 
@@ -84,7 +85,7 @@ body {
 
 /* ========== Hero ========= */
 
-.hero-box {
+.hero-container {
     background: #2e2f42;
 }
 
@@ -93,6 +94,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
+    text-align: center;
 }
 
 .hero-button-order {
@@ -112,22 +114,20 @@ body {
 
 /* ======== Our Benefits ======== */
 
-.our-benefits-title {
-    display: none;
-}
+
 
 .our-benefits-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .our-benefits-list-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 /*  ========== Our Team ========== */
@@ -135,11 +135,15 @@ body {
 .our-team-section {
     background: #f4f4fd;
 }
+.our-team-column {background-color: #ffffff;}
 
 .our-team-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .our-team-name {
@@ -147,21 +151,25 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .our-team-profession {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-}
+    }
 
 /* ========== Our Portfolio ==========*/
+
 
 .our-portfolio-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 
@@ -170,18 +178,18 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .our-portfolio-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455
-}
+   }
 
 /* ==================== Footer ======================== */
 
-.footer-box {
+.footer-container {
     background: #2e2f42;
 }
 
