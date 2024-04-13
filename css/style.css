@@ -1,0 +1,235 @@
+/*  ==============basic settings ============== */
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Body */
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
+    background: #ffffff;
+}
+
+/* ============== Header ============== */
+
+/* ======= logo ========= */
+
+.header-logo,
+.header-logo-blue-letters {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-logo {
+    color: #2e2f42;
+}
+
+.header-logo-blue-letters {
+    color: #4d5ae5;
+}
+
+.header-logo:hover,
+.header-logo-blue-letters:hover,
+.header-logo:focus,
+.header-logo-blue-letters:focus {
+    color: #404bbf;
+}
+
+
+/* ======= Header nav ======= */
+
+
+.header-nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #404bbf;
+}
+
+/* ====== header address ======= */
+
+.header-address-email,
+.header-address-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-address-email:hover,
+.header-address-tel:hover,
+.header-address-email:focus,
+.header-address-tel:focus {
+    color: #404bbf;
+}
+
+/* ==============Main content============== */
+
+/* ========== Hero ========= */
+
+.hero-box {
+    background: #2e2f42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.hero-button-order {
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.hero-button-order:hover,
+.hero-button-order:focus {
+    background: #404bbf;
+}
+
+/* ======== Our Benefits ======== */
+
+.our-benefits-title {
+    display: none;
+}
+
+.our-benefits-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.our-benefits-list-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*  ========== Our Team ========== */
+
+.our-team-section {
+    background: #f4f4fd;
+}
+
+.our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+}
+
+.our-team-foto {
+    width: 264px;
+    height: 260px;
+}
+
+.our-team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.our-team-profession {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ========== Our Portfolio ==========*/
+
+.our-portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+}
+
+.our-portfolio-img {
+    width: 360px;
+    height: 300px;
+}
+
+.our-portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.our-portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
+/* ============== Footer ============ */
+
+.footer-box {
+    background: #2e2f42;
+}
+
+
+.footer-logo-site,
+.footer-logo-blue-letters {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-site {
+    color: #f4f4fd;
+}
+
+.footer-logo-blue-letters {
+    color: #4d5ae5;
+}
+
+.footer-logo-site:hover,
+.footer-logo-blue-letters:hover,
+.footer-logo-site:focus,
+.footer-logo-blue-letters:focus {
+    color: #404bbf;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd
+}
