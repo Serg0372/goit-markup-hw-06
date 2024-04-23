@@ -62,7 +62,7 @@ body {
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .section-subtitle {
@@ -176,9 +176,6 @@ header {
     margin: 0 auto;
     color: #ffffff;
     text-align: center;
-}
-
-.hero-container {
     padding: 188px 0;
 }
 
@@ -232,7 +229,7 @@ header {
 }
 
 .benefits-list-column {
-    width: calc((100% - 3 * 24px) / 4);
+    width:calc((100% - 3 * 24px) / 4);
 }
 
 /*  ========== Our Team ========== */
@@ -251,7 +248,7 @@ header {
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    width: calc((100%-3*24px)/4);
+    width:calc((100% - 3 * 24px) / 4);
 }
 
 .team-box-text {
@@ -271,7 +268,7 @@ header {
 }
 
 .portfolio-column {
-    width: calc((100%-3*24px)/3);
+    width:calc((100% - 3 * 24px) / 3);
 }
 
 .portfolio-box-text {
