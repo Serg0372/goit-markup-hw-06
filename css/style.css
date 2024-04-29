@@ -201,7 +201,8 @@ header {
     color: #ffffff;
     text-align: center;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office.png');
+    background-size: cover;
 }
 
 .hero-title {
