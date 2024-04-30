@@ -40,7 +40,7 @@ img {
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background: #ffffff;
+    background-color: #ffffff;
     margin: 0;
 }
 
@@ -90,7 +90,7 @@ body {
     color: #4d5ae5;
     display: inline-block;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color ;
+    transition-property: color;
 }
 
 /* ============== Header ============== */
@@ -115,8 +115,8 @@ header {
 
 .header-logo-black-letters {
     color: #2e2f42;
-    transition:250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-    transition-property: color ;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 
 .header-logo:hover,
@@ -141,7 +141,7 @@ header {
     padding: 24px 0;
     display: block;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color ;
+    transition-property: color;
 }
 
 .header-nav-link:hover,
@@ -182,7 +182,7 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color ;
+    transition-property: color;
 }
 
 .header-address-item:hover,
@@ -195,7 +195,7 @@ header {
 /* ========== Hero ========= */
 
 .hero-section {
-    background: #2e2f42;
+    background-color: #2e2f42;
     max-width: 1440px;
     margin: 0 auto;
     color: #ffffff;
@@ -214,7 +214,7 @@ header {
 }
 
 .hero-button-order {
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -227,13 +227,13 @@ header {
     height: 56px;
     display: block;
     margin: 0 auto;
-    transition:250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-    transition-property: background;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color;
 }
 
 .hero-button-order:hover,
 .hero-button-order:focus {
-    background: #404bbf;
+    background-color: #404bbf;
 }
 
 /* ======== Our Benefits ======== */
@@ -271,14 +271,14 @@ header {
     border-radius: 4px;
     width: 264px;
     height: 112px;
-    background: #f4f4fd;
+    background-color: #f4f4fd;
     margin-bottom: 8px;
 }
 
 /*  ========== Our Team ========== */
 
 .team-section {
-    background: #f4f4fd;
+    background-color: #f4f4fd;
 }
 
 .team-list {
@@ -306,16 +306,17 @@ header {
     flex-direction: row;
     gap: 24px;
     margin-top: 8px;
-    margin-bottom: 32px;}
-    
+    margin-bottom: 32px;
+}
+
 .social-box {
     background-color: #4d5ae5;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     padding: 12px;
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property:background-color ;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color;
 }
 
 .social-link {
@@ -341,6 +342,9 @@ header {
 .portfolio-column {
     width: calc((100% - 48px) / 3);
     cursor: pointer;
+    background-color: #fff;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: box-shadow;
 }
 
 .portfolio-card {
@@ -350,7 +354,9 @@ header {
 
 .portfolio-column:hover .portfolio-text {
     transform: translateY(0%); 
-   
+}
+.portfolio-column:hover{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-text {
@@ -363,13 +369,12 @@ header {
     color: #f4f4fd;
     position: absolute;
     padding: 40px 32px;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     left: 0%;
     top: 0%;
     width: 100%;
     height: 100%;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        transition-property: cursor, transform;
 }
 
 
@@ -383,7 +388,7 @@ header {
 /* ==================== Footer ======================== */
 
 .footer-section {
-    background: #2e2f42;
+    background-color: #2e2f42;
     padding: 100px 0;
     display: block;
 }
@@ -392,13 +397,13 @@ header {
 .footer-logo {
     margin-bottom: 16px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color ;
+    transition-property: color;
 }
 
 .footer-logo-white-letters {
     color: #f4f4fd;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color ;
+    transition-property: color;
 }
 
 .footer-logo:hover,
