@@ -590,12 +590,11 @@ header {
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+fill: #2e2f42;
 }
 
 .button-close-icon {
-    width: 8px;
-    height: 8px;
-    fill: #2e2f42;
+    
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -603,13 +602,8 @@ header {
 .button-close:focus {
     background-color: #404bbf;
     border: none;
-}
-
-.button-close-icon:hover,
-.button-close-icon:focus {
     fill: #ffffff;
 }
-
 
 .call-back-title {
     font-weight: 500;
