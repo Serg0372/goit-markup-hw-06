@@ -682,16 +682,19 @@ outline: transparent;
 
 .call-back-form-comment:focus {
     border: 1px solid #4d5ae5;
-    
-}
+   }
 
 /* 
 .call-back-form-comment::placeholder {
     color: rgba(46, 47, 66, 0.4);
 } */
 
-.form-wrapper{
+.form-wrapper-comment{
 margin-bottom: 16px;
+}
+
+.form-wrapper{
+margin-bottom: 24px;
 }
 
 .checkbox-kustoms {
