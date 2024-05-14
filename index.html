@@ -33,6 +33,12 @@
             <li><a class="header-nav-link" href="">Contacts</a></li>
           </ul>
         </nav>
+        <button type="button" class="burger">
+          <svg class="icon-burger" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+
         <address class="header-address" id="contacts">
           <ul class="header-address-list">
             <li>
@@ -53,15 +59,15 @@
     <!-- ============== Main content ============== -->
     <main>
       <!-- === Hero == -->
-      <section class="hero-section">
+      <!-- <section class="hero-section">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button-order" type="button">Order Service</button>
         </div>
-      </section>
+      </section> -->
 
       <!-- == Our Benefits == -->
-      <section class="benefits-section section">
+      <!-- <section class="benefits-section section">
         <div class="container benefits-container">
           <h2 class="benefits-title visually-hidden">Our Benefits</h2>
           <ul class="benefits-list">
@@ -115,10 +121,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- == Our Team ==-->
-      <section class="team-section section">
+      <!-- <section class="team-section section">
         <div class="container team-container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
@@ -312,10 +318,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- =========================  Our Portfolio  ===================== -->
-      <section class="portfolio-section section" id="portfolio">
+      <!-- <section class="portfolio-section section" id="portfolio">
         <div class="container portfolio-container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -446,11 +452,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section>-->
     </main>
 
     <!-- ================= Footer ==================-->
-    <footer class="footer-section">
+    <!-- <footer class="footer-section">
       <div class="container footer-container">
         <div class="footer-container-logo">
           <a class="footer-logo logo" href="./index.html">
@@ -514,14 +520,80 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
-    <!-- ======= Backdrop ======= -->
+    <!-- ======= Burger mob ======= -->
 
-    <div class="backdrop is-open">
-      <!-- <div class="backdrop"> -->
+    <div class="mob-burger">
+      <!-- <div class="mob-burger is-open"> -->
+      <div class="container mob-burger-box">
+        <button class="mob-button-close" type="button">
+          <svg class="mob-button-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mob-nav">
+          <ul class="mob-nav-list">
+            <li class="mob-nav-item">
+              <a href="#" class="mob-nav-link">Studio</a>
+            </li>
+            <li class="mob-nav-item">
+              <a href="" class="mob-nav-link">Portfolio</a>
+            </li>
+            <li class="mob-nav-item">
+              <a href="" class="mob-nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="mob-address-list">
+            <li class="mob-address-item">
+              <a href="tel:+110001111111" class="mob-address-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mob-address-item">
+              <a href="mailto:info@devstudio.com" class="mob-address-link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mob-social-list">
+          <li class="mob-social-item">
+            <a href="" class="mob-social-link"
+              ><svg class="mob-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-2"></use></svg
+            ></a>
+          </li>
+          <li class="mob-social-item">
+            <a href="" class="mob-social-link"
+              ><svg class="mob-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use></svg
+            ></a>
+          </li>
+          <li class="mob-social-item">
+            <a href="" class="mob-social-link"
+              ><svg class="mob-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use></svg
+            ></a>
+          </li>
+          <li class="mob-social-item">
+            <a href="" class="mob-social-link"
+              ><svg class="mob-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use></svg
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ======= Backdrop mob ======= -->
+
+    <!-- <div class="backdrop is-open"> -->
+      <div class="backdrop">
       <div class="box-call-back">
-        <button type="button" class="button-close">
+        <button type="button" class="backdrop-button-close mob-button-close">
           <svg class="button-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -611,7 +683,6 @@
           </div>
           <button class="backdrop-form-button" type="submit">Send</button>
         </form>
-        <!-- </div> -->
       </div>
     </div>
   </body>
