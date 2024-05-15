@@ -342,36 +342,36 @@ padding: 188px 0;  background-color: #2e2f42;
 
 /* ========== Our Portfolio ==========*/
 
-.portfolio-list {
+/* .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
-}
+} */
 
-.portfolio-column {
+/*.portfolio-column {
     width: calc((100% - 48px) / 3);
-    cursor: pointer;
+     cursor: pointer;
     background-color: #fff;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: box-shadow;
-}
+    transition-property: box-shadow; 
+}*/
 
-.portfolio-card {
+/* .portfolio-card {
     position: relative;
     overflow: hidden;
-}
+} */
 
-.portfolio-column:hover .portfolio-text {
+/* .portfolio-column:hover .portfolio-text {
     transform: translateY(0%);
-}
+} */
 
-.portfolio-column:hover {
+/* .portfolio-column:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
+} */
 
-.portfolio-text {
+/* .portfolio-text {
     overflow: auto;
     transform: translateY(100%);
     font-weight: 400;
@@ -387,110 +387,108 @@ padding: 188px 0;  background-color: #2e2f42;
     width: 100%;
     height: 100%;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.portfolio-box-text {
+/* .portfolio-box-text {
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
-}
+} */
 
 /* ==================== Footer ======================== */
 
 .footer-section {
-    background-color: #2e2f42;
+    /* background-color: #2e2f42; */
     padding: 100px 0;
-    display: block;
+    /* display: block; */
 }
 
 /* ====== footer logo ======= */
-.footer-logo {
+/* .footer-logo {
     margin-bottom: 16px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color;
-}
+} */
 
-.footer-logo-white-letters {
+/* .footer-logo-white-letters {
     color: #f4f4fd;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color;
-}
+} */
 
-.footer-logo:hover,
+/* .footer-logo:hover,
 .footer-logo-white-letters:hover,
 .footer-logo:focus,
 .footer-logo-white-letters:focus {
     color: #404bbf;
-}
+} */
 
 /*  ======= Footer text ======== */
 
-.footer-container {
+/* .footer-container {
     display: flex;
     align-items: baseline;
-}
+} */
 
-.footer-container-logo {
+/* .footer-container-logo {
     margin-right: 120px;
-}
+} */
 
-.footer-text {
+/* .footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
-}
+} */
 
-.social-footer {
+/* .social-footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* align-content: center; */
-    /* justify-content: center; */
-}
+    } */
 
-.social-list-footer {
+/* .social-list-footer {
     margin: 0;
     gap: 16px;
-}
+} */
 
-.social-media-footer {
+/* .social-media-footer {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
-}
+} */
 
-.social-item-footer:hover,
+/* .social-item-footer:hover,
 .social-item-footer:focus {
     background-color: #31d0aa;
-}
+} */
 
-.footer-buttons-box {
+/* .footer-buttons-box {
     margin-left: 80px;
-}
+} */
 
-.footer-buttons {
+/* .footer-buttons {
     display: flex;
     gap: 24px;
 
-}
+} */
 
-.footer-button-paragraf {
+/* .footer-button-paragraf {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
-}
+} */
 
-.button-your-email {
+/* .button-your-email {
     border: 1px solid #ffffff;
-    border-radius: 4px;
+    border-radius: 4px; 
     width: 264px;
     height: 40px;
     padding-left: 16px;
@@ -500,14 +498,14 @@ padding: 188px 0;  background-color: #2e2f42;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-}
+} */
 
-.button-your-email::placeholder {
+/* .button-your-email::placeholder {
     color: #ffffff;
-}
+} */
 
-.button-subscribe {
-    min-width: 165px;
+ /*.button-subscribe {
+    width: 165px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -525,13 +523,13 @@ padding: 188px 0;  background-color: #2e2f42;
 
     padding: 8px 24px;
     color: #ffffff;
-    fill: #ffffff;
-    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  */
-}
+    fill: #ffffff; */
+    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+}*/
 
-.icon-fly {
+/* .icon-fly {
     margin-left: 16px;
-}
+} */
 
 /* .button-subscribe:focus,
 .button-subscribe:hover {
